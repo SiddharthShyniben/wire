@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Placeholdifier";
+  src: url("./font.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Placeholdifier Monospace";
+  src: url("./monospace.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Placeholdifier" !important;
+  background-image: none !important;
+}
+
+pre, pre *,
+code, code * {
+  font-family: "Placeholdifier Monospace" !important;
+}
+
+img, video {
+  filter: brightness(0%) contrast(0%) opacity(0.8);
+}
